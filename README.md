@@ -30,3 +30,5 @@ Extract all the rows where responsecode > 399 <br>
 
 Run the query <br>
 `curl --data-binary @queryparams.json 'localhost:8090/jobs?appName=queryrunner&classPath=sn.analytics.QueryExecutionDriver&context=sql-context&sync=true' ` <br>
+
+Parquet file generation can be done using factdatagenerator <br>
